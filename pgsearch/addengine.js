@@ -5,8 +5,8 @@ function addEngine(src, img, name, cat)
     if (((typeof window.sidebar)=="object") 
         && ((typeof window.sidebar.addSearchEngine)=="function")) {
             window.sidebar.addSearchEngine(
-                "https://www.itpug.org/pgsearch/"+src,
-                "https://www.itpug.org/pgsearch/"+img,
+                "/pgsearch/"+src,
+                "/pgsearch/"+img,
                 name,
                 cat);
     } else {
